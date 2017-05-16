@@ -143,3 +143,42 @@ h4{
 	height: 30px;
 	text-align: center;
 }
+
+.speaker{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.col-1{
+	width: 20%;
+	float: left
+}
+
+.col-2{
+	width: 80%;
+	float: left;
+}
+
+
+@media screen and (max-width: 900px) {
+   
+   .col-1{
+	width: 100%;
+	float: left
+}
+
+.col-2{
+	width: 100%;
+	float: left;
+}
+
+.mdc-button{
+	width: 100%;
+	height: auto;
+}
+
+}
+
+
+
